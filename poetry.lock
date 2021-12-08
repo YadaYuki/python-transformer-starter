@@ -1215,6 +1215,20 @@ python-versions = ">=3.6.2"
 typing-extensions = "*"
 
 [[package]]
+name = "torchtext"
+version = "0.11.0"
+description = "Text utilities and datasets for PyTorch"
+category = "main"
+optional = false
+python-versions = ">=3.5"
+
+[package.dependencies]
+numpy = "*"
+requests = "*"
+torch = "*"
+tqdm = "*"
+
+[[package]]
 name = "tornado"
 version = "6.1"
 description = "Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed."
@@ -1377,7 +1391,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "38fde72cc31182d11dae2e7bd57906ab1f47ab2ca2f3240f814a3ef728f5c241"
+content-hash = "5593ca1bf45abeb6173e42adf3650d0a034319e225c611d561a3182b107be137"
 
 [metadata.files]
 appnope = [
@@ -2314,6 +2328,24 @@ torch = [
     {file = "torch-1.10.0-cp39-cp39-win_amd64.whl", hash = "sha256:ca2c88fa4376e2648785029ab108e6e7abd784eb6535fc6036004b9254f9f7c1"},
     {file = "torch-1.10.0-cp39-none-macosx_10_9_x86_64.whl", hash = "sha256:d6ef87470b44df9970e84542547d5ba7720bb89616602441df555a39b124e2bc"},
     {file = "torch-1.10.0-cp39-none-macosx_11_0_arm64.whl", hash = "sha256:eea675ec01ec4b4a0655fd2984f166a5ca3b933dae6ad4eb4e52eba7026dc176"},
+]
+torchtext = [
+    {file = "torchtext-0.11.0-cp36-cp36m-macosx_10_9_x86_64.whl", hash = "sha256:90c3255c3f31e6a64c52a4a729ce22d43b98cbb22ceae5fb0a55670734fcbf46"},
+    {file = "torchtext-0.11.0-cp36-cp36m-manylinux1_x86_64.whl", hash = "sha256:4c15a107afac0487cf0c135dbe777090a095f33e34e5f82eef7e559ca1981102"},
+    {file = "torchtext-0.11.0-cp36-cp36m-manylinux2014_aarch64.whl", hash = "sha256:f73e37d9a00c395370b597df8668c107d81273ad6d835fe9970f5d8eff95a7ea"},
+    {file = "torchtext-0.11.0-cp36-cp36m-win_amd64.whl", hash = "sha256:f4d04a72a69dff2be236b4ac4b4dd1d438f3c4a3210d563f6d6af303ae202bc9"},
+    {file = "torchtext-0.11.0-cp37-cp37m-macosx_10_9_x86_64.whl", hash = "sha256:81aaf39aa332b7965dcbfa573f6fcb25eaebb6cc59d064d56ffe4dfb1339982c"},
+    {file = "torchtext-0.11.0-cp37-cp37m-manylinux1_x86_64.whl", hash = "sha256:5bf4ce9b7379999dfa11e123c82de259284f25566bd7a8885d3b31a12c37a3e7"},
+    {file = "torchtext-0.11.0-cp37-cp37m-manylinux2014_aarch64.whl", hash = "sha256:e9020e999e0b50af3167b3f7762b5893dcde6aa78f750e709f2e5513ba5cbf28"},
+    {file = "torchtext-0.11.0-cp37-cp37m-win_amd64.whl", hash = "sha256:83ffe0dcb7894ceffaa3b40410ad1cb4b92cd7cf19ea2ab0fdb1dfbedd7a4acd"},
+    {file = "torchtext-0.11.0-cp38-cp38-macosx_10_9_x86_64.whl", hash = "sha256:424574fefcd021a17977c9de6f7ba3c85eddbeeed4b10bad7400de6c32ad60da"},
+    {file = "torchtext-0.11.0-cp38-cp38-manylinux1_x86_64.whl", hash = "sha256:195fe7940a2b57dff2a1e38b8a3826eaecb92138653fb4a769a19b6fde8a96e3"},
+    {file = "torchtext-0.11.0-cp38-cp38-manylinux2014_aarch64.whl", hash = "sha256:c6ae98b822882dfccbb7ae7fa979ac401ae15e0a8eb873818032dc8bd440dab5"},
+    {file = "torchtext-0.11.0-cp38-cp38-win_amd64.whl", hash = "sha256:0f9e1d403bd368e2dd9f35dacaf8f982f9a379d5d3a66954f89efef17dc2726a"},
+    {file = "torchtext-0.11.0-cp39-cp39-macosx_10_9_x86_64.whl", hash = "sha256:a21473c11e70beddda234055ae7e46eed317ca5977bdb2b2735b9e67a3617c23"},
+    {file = "torchtext-0.11.0-cp39-cp39-manylinux1_x86_64.whl", hash = "sha256:bc5f8c44f62a87dd3f91bab19a2d91c7c43b22f81b7a20ece52f97c55774eee3"},
+    {file = "torchtext-0.11.0-cp39-cp39-manylinux2014_aarch64.whl", hash = "sha256:293a58f55bb35b19a44e9f47f1be826266435f8aa243423bb67d349ee5ae031e"},
+    {file = "torchtext-0.11.0-cp39-cp39-win_amd64.whl", hash = "sha256:9456f89a607ce9a1a14aebfe573812c560720bc72c4856ba5197ceff1ac4c3df"},
 ]
 tornado = [
     {file = "tornado-6.1-cp35-cp35m-macosx_10_9_x86_64.whl", hash = "sha256:d371e811d6b156d82aa5f9a4e08b58debf97c302a35714f6f45e35139c332e32"},
